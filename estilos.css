@@ -1,0 +1,119 @@
+ body{
+    background-image: url("fondo\ carro.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Columna{
+    background-color: black;
+    background-size: 700px;
+    border-color: white;
+    color: white;
+    padding: 15px;
+    width: 20%;
+    margin: 5px;
+    display: inline-flex;
+}
+.Video{
+    background-size: 400px;
+    padding: 15px;
+    width: 20%;
+    margin: 5px;
+    display: inline-flex;
+}
+.Fo{
+    color: white;
+    padding: 0px;
+    width: 10%;
+    margin: 35px;
+    display: inline-flex;
+}
+.Ra{
+    color: white;
+    background-position-x: right;
+}
+.M{
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    cursor: pointer;
+    animation-name: imagen1-animation;
+    animation-duration: 3s;
+}
+.M:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+button{
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 1px 0px;
+    cursor: pointer;
+
+}
+.cabeza{
+    display: inline-flex;
+    background-position: center center;
+}
+.logop{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 200%;
+}
+.perro{
+    column-count: 4;
+}
+.image{
+    left: 60px;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    transition: 0.4s;
+}
+.image-img1{
+    display: block;
+    width: 238px;
+    height: 241px;
+    border-radius: 20px 20px 20px 20px;
+}
+.image:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.image-title{
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+
+}
+.image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.23s;
+}
+.image-overlay > * {
+    transition: transform 2s;
+}
+.image-overlay:hover{
+    background-color: rgba(0, 0, 0, 0.644);
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 1;
+}
+
